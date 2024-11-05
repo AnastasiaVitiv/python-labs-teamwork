@@ -7,19 +7,19 @@ class Ship:
         self.speed = speed
         self.__distance = distance
 
-    def getTonnage(self):
+    def get_tonnage(self):
         return self.__tonnage
 
-    def getName(self):
+    def get_name(self):
         return self.__name
 
-    def getPassengerCount(self):
+    def get_passenger_count(self):
         return self.__passenger_count
 
-    def getDistance(self):
+    def get_distance(self):
         return self.__distance
 
-    def setDistance(self, distance):
+    def set_distance(self, distance):
         self.__distance = distance
 
 
